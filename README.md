@@ -29,8 +29,11 @@ python3 auth_harvester.py
 You will be prompted to choose an input method:
 
 1.Raw HTTP: Copy the entire request from Burp Suite (headers only usually suffices).
+
 2.cURL: Right-click a network request in your browser -> Copy -> Copy as cURL.
+
 3.Manual: Type the headers yourself.
+
 The tool will validate that authentication data exists and save it to a JSON file (e.g., user_a.json).
 
 📖 Workflow: IDOR Testing
