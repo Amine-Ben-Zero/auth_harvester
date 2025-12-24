@@ -9,18 +9,29 @@ Instead of pasting massive cookie strings into your code, this tool parses raw r
 ⚡ Features
 Request Parsing:
 cURL: Paste directly from Chrome/Firefox DevTools ("Copy as cURL").
+
 Raw HTTP: Paste directly from Burp Suite Repeater.
+
 Manual: Step-by-step entry for custom headers.
+
 Smart Cleaning: Automatically strips request-specific headers that break Python scripts (e.g., Content-Length, Host, Connection) while preserving Cookie, Authorization, and X-CSRF-Token.
+
 JSON Output: Saves sessions in a standardized format for easy reuse.
+
 Dependency Free: Written in pure Python 3. No pip install required.
+
 🚀 Installation
+
 Bash
 
 git clone https://github.com/Amine-Ben-Zero/auth_harvester.git
+
 cd AuthHarvester
+
 chmod +x auth_harvester.py
+
 🛠 Usage
+
 Run the script interactively:
 
 Bash
