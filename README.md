@@ -1,4 +1,5 @@
 AuthHarvester
+
 A CLI utility for Bug Bounty Hunters to quickly port authenticated sessions from Browser/Burp to Python.
 
 AuthHarvester solves the tedious workflow of manually copying cookies and Authorization headers when writing proof-of-concept (PoC) scripts for IDOR, Broken Access Control, or BOLA testing.
