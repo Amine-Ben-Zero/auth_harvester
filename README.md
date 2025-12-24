@@ -51,6 +51,8 @@ The tool will validate that authentication data exists and save it to a JSON fil
 The primary use case is separating Attacker and Victim sessions for Access Control testing.
 
 1.Log in as User A (Attacker). Copy request as cURL. Run tool -> Save as attacker.json.
+
 2.Log in as User B (Victim). Copy request as cURL. Run tool -> Save as victim.json.
+
 3.Use the helper function below in your exploit script to swap sessions instantly.
 
